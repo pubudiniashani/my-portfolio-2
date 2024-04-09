@@ -1,0 +1,64 @@
+.header1{
+    background-color: #1B263B;
+    height: 60px;
+
+}
+
+.header2{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.navigation-bar{
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    font-size: 22px;
+
+}
+
+.nav .navigation-bar>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+navigation-bar>a:last-child {
+    margin-right: 0;
+}
+
+.header3{
+
+}
+
+
+
+#img1{
+
+}
+
+
+
+@media all and (max-width: 1024px){
+
+}
+
+@media all  and(max-width: 952px ){
+
+}
+
+@media all  and (max-width: 768px){
+
+}
+
+@media all  and (max-width: 500px){
+
+}
+
+@media all  and (max-width: 345px){
+
+}
