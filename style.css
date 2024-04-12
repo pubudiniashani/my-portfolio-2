@@ -1,7 +1,9 @@
+
 .header1{
     background-color: #1B263B;
+    width: 100vw;
     height: 60px;
-
+    position: fixed;
 }
 
 .header2{
@@ -31,14 +33,50 @@ navigation-bar>a:last-child {
     margin-right: 0;
 }
 
-.header3{
+.section1{
+    background-color: #415A77;
+    height: 100vh;
 
 }
 
 
+.header3{
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.text1{
+    margin: 0;
+}
+
+.span1{
+    color: black;
+    margin-left: 40px;
+   font-size:50px;
+}
+
+.span2{
+    color: white;
+    font-size: 60px;
+ }
+
+.img{
+    position: relative;
+    text-align: right;
+    margin: 0;
+    right: 150px;
+    top: 0;
+}
 
 #img1{
-
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: relative;
+    margin-top: 10px;
+    top: 0;
+    right: 0;
 }
 
 
