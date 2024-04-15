@@ -88,10 +88,12 @@ navigation-bar>a:last-child {
 }
 
 .section2{
-
+    background: white;
 }
 
-
+.about{
+    font-size: 40px;
+}
 
 @media all and (max-width: 1024px){
 
