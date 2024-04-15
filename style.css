@@ -81,6 +81,7 @@ navigation-bar>a:last-child {
 
 .icons{
     position: relative;
+    margin-left: 55px;
     bottom: -200px;
     margin-bottom: 0;
 
