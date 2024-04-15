@@ -79,6 +79,13 @@ navigation-bar>a:last-child {
     right: 25px;
 }
 
+.icons{
+    position: relative;
+    bottom: -200px;
+    margin-bottom: 0;
+
+}
+
 
 
 @media all and (max-width: 1024px){
