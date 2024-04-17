@@ -28,6 +28,10 @@
     margin-right: 20px;
 }
 
+.navigation-bar> a:hover{
+    color: #90e0ef;
+}
+
 
 navigation-bar>a:last-child {
     margin-right: 0;
