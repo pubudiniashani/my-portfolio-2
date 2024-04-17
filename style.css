@@ -97,24 +97,36 @@ navigation-bar>a:last-child {
 
 .about{
     font-size: 40px;
+    text-align: center;
+}
+
+.desc1{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+@media all  and(max-width: 1440px){
+
 }
 
 @media all and (max-width: 1024px){
 
 }
 
-@media all  and(max-width: 952px ){
 
-}
 
 @media all  and (max-width: 768px){
 
 }
 
-@media all  and (max-width: 500px){
+@media all  and (max-width: 425px){
 
 }
 
-@media all  and (max-width: 345px){
+@media all  and (max-width: 375px){
+
+}
+@media all  and (max-width: 320px){
 
 }
