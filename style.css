@@ -141,8 +141,6 @@ navigation-bar>a:last-child {
 
     }
 
-    /*
-
     .header3{
         font-size: 50px;
 
@@ -155,6 +153,10 @@ navigation-bar>a:last-child {
     .span2{
         font-size: 50px;
     }
+
+    /*
+
+
 
     .img{
         position: relative;
