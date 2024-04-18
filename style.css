@@ -133,13 +133,15 @@ navigation-bar>a:last-child {
 
     }
 
-    /*.navigation-bar{
+    .navigation-bar{
         position: absolute;
         right: 100px;
         top: 15px;
         font-size: 22px;
 
     }
+
+    /*
 
     .header3{
         font-size: 50px;
