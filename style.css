@@ -169,15 +169,17 @@ navigation-bar>a:last-child {
         right: 25px;
     }
 
+    .icons{
+        bottom: -180px;
+    }
+
     /*
 
 
 
 
 
-    .icons{
-        bottom: -180px;
-    }*/
+   */
 }
 
 
