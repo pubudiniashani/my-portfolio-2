@@ -143,8 +143,11 @@ navigation-bar>a:last-child {
 
 .header4{
     font-size: 40px;
+    color: white;
     text-align: center;
     margin: 0;
+    position: relative;
+    top: 40px;
 }
 
 .desc2{
@@ -153,11 +156,19 @@ navigation-bar>a:last-child {
     border-radius: 25px;
     background-color: white;
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 120px;
 }
 
-
+.desc3{
+    width: 80vw;
+    height: 120px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    top: 210px;
+    left: 120px;
+}
 
 
 
