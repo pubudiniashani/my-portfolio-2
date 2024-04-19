@@ -151,26 +151,37 @@ navigation-bar>a:last-child {
 }
 
 .desc2{
-    width: 80vw;
+    width: 70vw;
     height: 120px;
     border-radius: 25px;
     background-color: white;
     position: relative;
     top: 100px;
-    left: 120px;
+    left: 180px;
 }
 
 .desc3{
-    width: 80vw;
+    width: 70vw;
     height: 120px;
     border-radius: 25px;
     background-color: white;
     position: relative;
     top: 210px;
-    left: 120px;
+    left: 180px;
 }
 
+.img1{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
 
+.p1{
+    position: relative;
+    font-size: 30px;
+    top: -65px;
+    left: 280px;
+}
 
 
 
