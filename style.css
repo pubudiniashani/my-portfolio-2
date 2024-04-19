@@ -4,6 +4,7 @@
     width: 100vw;
     height: 60px;
     position: fixed;
+    z-index: 1000;
 }
 
 .header2{
@@ -63,6 +64,7 @@ navigation-bar>a:last-child {
 .span2{
     color: white;
     font-size: 60px;
+    margin-left: 10px;
  }
 
 .img{
@@ -95,25 +97,55 @@ navigation-bar>a:last-child {
    height: 100vh;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6fff8+0,f6fff8+26,778da9+100,778da9+100 */
     background: linear-gradient(to bottom,  rgba(246,255,248,1) 0%,rgba(246,255,248,1) 26%,rgba(119,141,169,1) 100%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+    position: relative;
 
 }
 
 .about{
     font-size: 40px;
     text-align: center;
+    margin: 0;
+    position: relative;
+    top: 40px;
 }
 
 .desc1{
     font-size: 20px;
     text-align: center;
+    position: relative;
+    top: 50px;
 
 }
 .para1{
     text-align: center;
     font-size: 30px;
+    line-height: 3;
+    position: relative;
+    top: 60px;
+}
+
+.btnCv{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    top:85px;
+    margin-left: 950px;
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all  and(max-width: 1440px){
     .header1{
@@ -173,7 +205,6 @@ navigation-bar>a:last-child {
 
 @media all and (max-width: 1024px){
     .header1{
-
         width: 100vw;
         height: 60px;
 
@@ -229,6 +260,9 @@ navigation-bar>a:last-child {
 
 }
 
+@media all and(max-width: 960px){
+
+}
 
 
 @media all  and (max-width: 768px){
