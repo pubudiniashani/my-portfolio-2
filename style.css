@@ -110,12 +110,12 @@ navigation-bar>a:last-child {
 }
 
 .desc1{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     position: relative;
     top: 50px;
-
 }
+
 .para1{
     text-align: center;
     font-size: 30px;
@@ -128,13 +128,34 @@ navigation-bar>a:last-child {
     width: 150px;
     height: 40px;
     border-radius: 25px;
+    background-color: #415A77;
+    color: white;
+    font-size: 20px;
     position: relative;
     top:85px;
     margin-left: 950px;
-
-
 }
 
+.section3{
+    background-color: #415A77;
+    height: 100vh;
+}
+
+.header4{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.desc2{
+    width: 80vw;
+    height: 120px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
 
 
 
@@ -255,6 +276,36 @@ navigation-bar>a:last-child {
 
     .icons{
         bottom: -180px;
+    }
+
+    .about{
+        font-size: 35px;
+    }
+
+    .desc1{
+        font-size: 20px;
+
+    }
+
+    .para1{
+        text-align: center;
+        width: 80vw;
+        font-size: 25px;
+        line-height: 2;
+        position: relative;
+        top: 60px;
+    }
+
+    .btnCv{
+        width: 150px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #415A77;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top:85px;
+        margin-left: 700px;
     }
 
 
