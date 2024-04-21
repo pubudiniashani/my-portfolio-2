@@ -142,7 +142,7 @@ navigation-bar>a:last-child {
 }
 
 .header4{
-    font-size: 40px;
+    font-size: 42px;
     color: white;
     text-align: center;
     margin: 0;
@@ -151,23 +151,24 @@ navigation-bar>a:last-child {
 }
 
 .desc2{
-    width: 70vw;
+    width: 65vw;
     height: 120px;
     border-radius: 25px;
     background-color: white;
     position: relative;
     top: 100px;
-    left: 180px;
+    left: 220px;
+    
 }
 
 .desc3{
-    width: 70vw;
+    width: 65vw;
     height: 120px;
     border-radius: 25px;
     background-color: white;
     position: relative;
     top: 210px;
-    left: 180px;
+    left: 220px;
 }
 
 .img1{
@@ -178,9 +179,13 @@ navigation-bar>a:last-child {
 
 .p1{
     position: relative;
-    font-size: 30px;
-    top: -65px;
-    left: 280px;
+    width: fit-content;
+    font-size: 32px;
+    top: -40px;
+    /*left: 120px;*/
+    left: 270px;
+    margin: 0;
+
 }
 
 
