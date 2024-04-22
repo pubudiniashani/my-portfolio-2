@@ -347,11 +347,13 @@ navigation-bar>a:last-child {
 
     .para1{
         text-align: center;
-        width: 80vw;
+        width: 70vw;
         font-size: 25px;
         line-height: 2;
         position: relative;
         top: 60px;
+        left: 170px;
+
     }
 
     .btnCv{
@@ -364,6 +366,69 @@ navigation-bar>a:last-child {
         position: relative;
         top:85px;
         margin-left: 700px;
+    }
+
+    .section3{
+        background-color: #415A77;
+        height: 100vh;
+    }
+
+    .header4{
+        font-size: 38px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        position: relative;
+        top: 40px;
+    }
+
+    .desc2{
+        width: 75vw;
+        height: 120px;
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+
+    .desc3{
+        width: 75vw;
+        height: 120px;
+        position: relative;
+        left: 150px;
+        top: 190px;
+    }
+
+    .img1{
+        position: relative;
+        top: 30px;
+        left: 50px;
+        height: 60px;
+    }
+
+    .p1{
+        position: relative;
+        width: fit-content;
+        font-size: 28px;
+        top: -20px;
+        left: 250px;
+        margin: 0;
+
+    }
+
+    .p2{
+        position: relative;
+        width: fit-content;
+        font-size: 28px;
+        top: -60px;
+        left: 250px;
+        margin: 0;
+
+    }
+
+    .img2{
+        position: relative;
+        top: 15px;
+        left: 50px;
     }
 
 
