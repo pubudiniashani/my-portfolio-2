@@ -433,9 +433,9 @@ navigation-bar>a:last-child {
 
 @media all  and (max-width: 768px){
 
-    body{
+    /*body{
         margin: 0;
-    }
+    }*/
 
     .header1{
         background-color: #1B263B;
@@ -473,6 +473,62 @@ navigation-bar>a:last-child {
         top:85px;
         margin-left: 500px;
     }
+    .desc2{
+        width: 80vw;
+        height: 85px;
+        border-radius: 30px;
+        background-color: white;
+        position: relative;
+        top: 125px;
+        left: 80px;
+
+    }
+
+    .desc3{
+        width: 80vw;
+        height: 85px;
+        border-radius: 30px;
+        background-color: white;
+        position: relative;
+        top: 210px;
+        left: 80px;
+    }
+
+    .img1{
+        position: relative;
+        top: 10px;
+        left: 30px;
+        width: 100px;
+    }
+
+    .p1{
+        position: relative;
+        width: fit-content;
+        font-size: 24px;
+        top: -40px;
+        left: 175px;
+        margin: 0;
+
+    }
+
+    .img2{
+        position: relative;
+        top: 3px;
+        left: 30px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .p2{
+        position: relative;
+        width: fit-content;
+        font-size: 24px;
+        top: -55px;
+        left: 175px;
+        margin: 0;
+
+    }
+
 }
 
 @media all  and (max-width: 425px){
