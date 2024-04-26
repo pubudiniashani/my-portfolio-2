@@ -222,10 +222,21 @@ navigation-bar>a:last-child {
     color: white;
     text-align: center;
     font-size: 28px;
+
+}
+#btn2{
+
 }
 
-
-
+.d1{
+    width: 200px;
+    height: 200px;
+    background-color: #1B263B;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+}
 
 
 
