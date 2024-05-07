@@ -206,7 +206,7 @@ navigation-bar>a:last-child {
 
 .section4{
     background: #778da9;
-    height: 100vh;
+    height: 85vh;
 
 }
 
@@ -226,7 +226,6 @@ navigation-bar>a:last-child {
     margin: 0;
 }
 
-
 .main-div{
     width: 80vw;
     position: relative;
@@ -242,13 +241,12 @@ navigation-bar>a:last-child {
     height: 250px;
     background-color: white;
     position: relative;
-    left: 20px;
-    top: 100px;
+    left: 15px;
+    top: 150px;
     border-radius: 25px;
     text-align: center;
     display: flex;
     justify-content: center;
-
 }
 
 .d1 h5{
@@ -273,7 +271,12 @@ navigation-bar>a:last-child {
     width: 50px;
     height: 50px;
     position: relative;
-    left: 650px;
+    left: 600px;
+}
+
+.section5{
+    background-color: #1B263B;
+    height: 100vh;
 }
 
 
