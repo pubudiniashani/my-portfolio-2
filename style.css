@@ -276,12 +276,24 @@ navigation-bar>a:last-child {
 
 .section5{
     background-color: #1B263B;
-    height: 100vh;
+    height: 200vh;
 }
 
+.section5 div h3{
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    padding: 60px;
+}
 
-
-
+#desc5{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
 
 
 
