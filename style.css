@@ -285,7 +285,8 @@ navigation-bar>a:last-child {
     text-align: center;
     margin: 0;
     position: relative;
-    padding: 60px;
+   /* padding: 60px;*/
+    top: 60px;
 }
 
 #desc5{
@@ -293,6 +294,8 @@ navigation-bar>a:last-child {
     text-align: center;
     font-size: 28px;
     margin: 0;
+    position: relative;
+    top: 80px;
 }
 
 
