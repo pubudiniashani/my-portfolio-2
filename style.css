@@ -275,7 +275,7 @@ navigation-bar>a:last-child {
 }
 
 .section5{
-    background-color: #1B263B;
+    background-color: #415A77;
     height: 200vh;
 }
 
@@ -299,6 +299,31 @@ navigation-bar>a:last-child {
 }
 
 
+
+
+
+
+
+
+
+
+.section6{
+    height: 95vh;
+    background-color: #778da9;
+}
+
+.section6 div h3{
+    color: white;
+    font-size: 42px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 65px;
+}
+
+.section6 div h5{
+    
+}
 
 
 
