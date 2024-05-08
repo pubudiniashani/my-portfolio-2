@@ -352,8 +352,35 @@ navigation-bar>a:last-child {
     justify-content: center;
 }
 
+#div1 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
 
+#div2 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
 
+#div3 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+
+#div4 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+
+#div5 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+
+#div6 img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
 
 
 
