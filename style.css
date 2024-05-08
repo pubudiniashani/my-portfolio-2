@@ -383,14 +383,26 @@ navigation-bar>a:last-child {
 }
 
 .section7{
-    height: 100vh;
-    background-color: white;
+    height: 120vh;
+    background-color: #D9D9D9;
 }
 
+#topic1{
+    font-size: 42px;
+    color: #1b263b;
+}
 
+#topic2{
+    font-size: 42px;
+    color: white;
+}
 
-
-
+.section7 div h3{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 60px;
+}
 
 
 
