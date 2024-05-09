@@ -421,10 +421,23 @@ navigation-bar>a:last-child {
 
 #description{
     width: 250px;
-    height: 80px;
+    height: 100px;
     background-color: #778da9;
     border-radius: 20px;
 }
+
+#send{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
 
 
 
