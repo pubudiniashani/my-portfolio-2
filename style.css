@@ -384,7 +384,7 @@ navigation-bar>a:last-child {
 
 .section7{
     height: 120vh;
-    background-color: #D9D9D9;
+    background-color: #e0e1dd;
 }
 
 #topic1{
@@ -404,6 +404,12 @@ navigation-bar>a:last-child {
     top: 60px;
 }
 
+#name{
+    width: 200px;
+    background-color: #778da9;
+    border-radius: 20px;
+    box-shadow: #415A77;
+}
 
 
 
