@@ -405,12 +405,19 @@ navigation-bar>a:last-child {
 }
 
 #name{
-    width: 200px;
+    width: 250px;
+    height: 30px;
     background-color: #778da9;
     border-radius: 20px;
     box-shadow: #415A77;
 }
 
+#email{
+    width: 250px;
+    height: 30px;
+    background-color: #778da9;
+    border-radius: 20px;
+}
 
 
 
