@@ -410,6 +410,8 @@ navigation-bar>a:last-child {
     background-color: #778da9;
     border-radius: 20px;
     box-shadow: #415A77;
+    border: none;
+    color: white;
 }
 
 #email{
@@ -417,6 +419,8 @@ navigation-bar>a:last-child {
     height: 30px;
     background-color: #778da9;
     border-radius: 20px;
+    border: none;
+    color: white;
 }
 
 #description{
@@ -424,12 +428,15 @@ navigation-bar>a:last-child {
     height: 100px;
     background-color: #778da9;
     border-radius: 20px;
+    border: none;
 }
 
 #send{
     width: 150px;
     height: 30px;
     border-radius: 20px;
+    background-color: #778da9;
+    border: none;
 }
 
 
@@ -677,7 +684,7 @@ navigation-bar>a:last-child {
     .span2{
         position: relative;
         color: white;
-        font-size: 45px;
+        font-size: 40px;
         margin-left: 20px;
         top: 25px;
     }
