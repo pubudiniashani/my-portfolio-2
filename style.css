@@ -404,6 +404,12 @@ navigation-bar>a:last-child {
     top: 60px;
 }
 
+#contact-div{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
 #name{
     width: 250px;
     height: 30px;
@@ -439,7 +445,17 @@ navigation-bar>a:last-child {
     border: none;
 }
 
+#contact-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
+#details{
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+}
 
 
 
