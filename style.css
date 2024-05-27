@@ -323,13 +323,13 @@ navigation-bar>a:last-child {
     align-items: center;
     flex-wrap: wrap;
     top: 100px;
-    left: 100px;
+    left: 80px;
 
 }
 .container .card {
     position: relative;
     width: 300px;
-    height: 300px;
+    height: 350px;
     background: #fff;
     margin: 20px;
     border-radius: 20px;
@@ -382,7 +382,7 @@ navigation-bar>a:last-child {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    background: lightblue;
+    background: #415a77;
     color: #fff;
     border-radius: 40px;
     text-decoration: none;
