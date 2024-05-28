@@ -210,16 +210,7 @@ navigation-bar>a:last-child {
 
 }
 
-/*
-#Projects{
-   font-size: 42px;
-    color: white;
-    text-align: center;
-    margin: 0;
-    position: relative;
-    padding: 60px;
-}
-*/
+
 
 #Projects h3{
     font-size: 42px;
@@ -292,7 +283,7 @@ navigation-bar>a:last-child {
 
 .section5{
     background-color: #415A77;
-    height: 400vh;
+    height: 360vh;
 }
 
 .section5 div h3{
@@ -342,10 +333,10 @@ navigation-bar>a:last-child {
 
 
 
-.container .card:hover {
-    filter: blur(0px);
+.card:hover {
+    
     transform: scale(1.1);
-    opacity: 1;
+
 }
 
 .container .card .circle {
@@ -372,7 +363,7 @@ navigation-bar>a:last-child {
 }
 
 .container .card .content p {
-    color: #666;
+    color: black;
 }
 
 .container .card .content .icon-container a {
@@ -389,7 +380,7 @@ navigation-bar>a:last-child {
 .description{
     position: relative;
     font-size: 16px;
-
+    color: black;
 
 }
 
