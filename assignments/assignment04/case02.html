@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question two</title>
+    <link rel="stylesheet" href="../../assets/normalize.css">
+
+
+    <style>
+
+        body{
+            background-color: dodgerblue;
+        }
+
+        div{
+            background-color: grey;
+            width: 195px;
+            height: 195px;
+            border-radius: 100%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        div>h3{
+            position: absolute;
+            width: fit-content;
+            height: fit-content;
+            color: white;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        div::before{
+            content: "";
+            border: 10px solid white;
+            border-top-color: #ff253a;
+
+            border-radius: 100%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        div:hover::before{
+            transform: rotate(360deg);
+            transition-duration: 3s;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div>
+    <h3>RAWD</h3>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question three</title>
+
+    <link rel="stylesheet" href="../../assets/normalize.css">
+
+    <style>
+
+        body{
+            overflow: hidden;
+        }
+
+        :root{
+            --width: 200px;
+            --height: 100px;
+
+        }
+
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: dodgerblue;
+            border-radius: 25px;
+
+            animation-duration: 5s;
+            animation-name: animi;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+
+        }
+
+
+        @keyframes animi {
+            /*from{
+                margin-left: 0px;
+            }
+            to{
+               margin-left: calc(100vw - 200px);
+           }*/
+
+
+            0%{
+                margin-left: 0px;
+
+            }
+
+            25%{
+                margin-left: calc(100vw - 200px);
+                margin-top: 0;
+                background-color: mediumseagreen;
+                transform: rotate(180deg);
+            }
+
+            50%{
+
+                margin-top: calc(100vh - 100px);
+                margin-left: calc(100vw - 200px);
+                background-color: hotpink;
+                transform: rotate(0deg);
+
+            }
+
+            75%{
+                margin-left: 0;
+                margin-top: calc(100vh - 100px);
+                background-color: mediumpurple;
+                transform: rotate(-180deg);
+            }
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
