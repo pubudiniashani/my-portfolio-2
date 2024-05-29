@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 09</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        section{
+            display: flex;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .light{
+            width: 100px;
+            height: 50px;
+            border: 1px solid brown;
+            background-color: white;
+            margin: 2px;
+        }
+
+        #btnpanel{
+            text-align: center;
+
+        }
+
+        .light_on{
+            background-color: red;
+            box-shadow: 0px 0px 20px red;
+        }
+
+        .light_on2{
+            background-color: lightcoral;
+            box-shadow: 0px 0px 20px lightcoral;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<main>
+
+    <section id="lightpanel">
+
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+
+    </section>
+
+    <section id="btnpanel">
+        <button type="button" id="start">Start</button>
+        <button type="button" id="stop">Stop</button>
+    </section>
+
+    <audio src="../assignments-assets/audio/WhatsApp%20Audio%202024-05-04%20at%203.07.51%20PM.mpga" id="audio"></audio>
+
+    <script src="../../assets/lib/jquery-3.7.1.min.js.js"></script>
+
+    <script>
+
+        var currentLightIndex = 0;
+        var maxLightCount = 7;
+        var move = "RIGHT"; //right or left
+        myInterval = null;
+
+        function updateLightPanel(){
+            $(".light").removeClass("light_on")
+            $(".light").removeClass("light_on2");
+            $(".light").eq(currentLightIndex).addClass("light_on");
+
+            if(move==="RIGHT"){
+                if(currentLightIndex!==0) $(".light").eq(currentLightIndex -1).addClass("light_on2");
+                ++currentLightIndex;
+                if(currentLightIndex>maxLightCount -2){
+                    move = "LEFT";
+                }
+            }else{
+                $(".light").eq(currentLightIndex +1).addClass("light_on2")
+
+                --currentLightIndex;
+                if(currentLightIndex==0){
+                    move = "RIGHT";
+                }
+            }
+        }
+
+        setInterval(updateLightPanel,100);
+
+        $("#start").on('click',()=>{
+            myInterval = setInterval(updateLightPanel,100);
+            $("#audio")[0].play();
+        })
+
+        $("#stop").on('click',()=>{
+            myInterval = clearInterval(myInterval)
+            $("#audio")[0].pause();
+        });
+
+
+    </script>
+
+
+</main>
+
+</body>
+</html>

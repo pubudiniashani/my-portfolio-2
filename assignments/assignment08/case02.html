@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 02</title>
+
+    <style>
+
+        body{
+            background-color: lightslategray;
+        }
+
+        section{
+            display: flex;
+
+        }
+
+        section>div{
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+            position: relative;
+            left: 300px;
+            top: 250px;
+
+        }
+
+        #box1{
+            top: 150px;
+            left: 250px;
+            background-color: red ;
+
+        }
+
+        #box2{
+            background-color: yellow;
+        }
+
+        #box3{
+            background-color: dodgerblue;
+        }
+
+        #box4{
+            background-color: black;
+        }
+
+        #box5{
+            background-color: lightcoral;
+        }
+
+        #box6{
+            top: 350px;
+            left: 350px;
+            background-color: mediumseagreen;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<section>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+    <div id="box6"></div>
+
+</section>
+
+<script src="../../assets/lib/jquery-3.7.1.min.js.js"></script>
+
+<script>
+
+    var array = ["red","yellow","dodgerblue","black","lightcoral","mediumseagreen"];
+
+    function changeColour(){
+
+        let lastValue = array.pop();
+        array.unshift(lastValue);
+
+        $("#box1").css("background-color", array[0]);
+        $("#box2").css("background-color", array[1]);
+        $("#box3").css("background-color", array[2]);
+        $("#box4").css("background-color", array[3]);
+        $("#box5").css("background-color", array[4]);
+        $("#box6").css("background-color", array[5]);
+    }
+
+    setInterval(changeColour,500);
+
+
+</script>
+
+
+
+</body>
+</html>

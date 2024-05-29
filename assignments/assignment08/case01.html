@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 01</title>
+
+    <style>
+
+        section{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        div{
+            width: 160px;
+            height: 150px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        section>div>img{
+            width: 130px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<section>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value1">A</div>
+    </div>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value2">B</div>
+    </div>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value3">C</div>
+    </div>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value4">D</div>
+    </div>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value5">E</div>
+    </div>
+
+    <div>
+        <img src="../assignments-assets/man.gif" alt="gif">
+        <div id="value6">F</div>
+    </div>
+
+    <div>
+        <div>
+            <img src="../assignments-assets/home.gif" alt="home">
+        </div>
+    </div>
+
+</section>
+<br><br>
+
+
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+
+<script src="../../assets/lib/jquery-3.7.1.min.js.js"></script>
+
+<script>
+
+    var array = ["A","B","C","D","E","F"];
+
+    function replaceValues(){
+        //change array
+        let lastValue = array.pop();
+        array.unshift(lastValue);
+
+        //update elements
+        $("#value1").text(array[0]);
+        $("#value2").text(array[1]);
+        $("#value3").text(array[2]);
+        $("#value4").text(array[3]);
+        $("#value5").text(array[4]);
+        $("#value6").text(array[5]);
+
+
+    }
+
+    // setInterval(replaceValues,2000);
+
+    $("#start").click(function (){
+        myInterval = setInterval(replaceValues,2000);
+    });
+
+    $("#stop").click(function (){
+        clearInterval(myInterval);
+    });
+
+
+</script>
+
+
+
+</body>
+</html>
