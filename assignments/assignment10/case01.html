@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <style>
+
+        #calculator{
+            width: 400px;
+            height: 500px;
+            border: 1px solid  black;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            top: 25px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,87,138,1) 100%, rgba(240,241,241,1) 100%);
+
+        }
+
+        #buttons{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            position: relative;
+            top: 40px;
+        }
+
+        #buttons input[type="button"] {
+            width: 80px;
+            padding: 20px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 100%;
+            background-color: #e0e0e0;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        #buttons input[type="button"]:hover {
+            background-color: #0077b6;
+            transform: scale(1.05);
+        }
+
+        #buttons input[type="button"]:active {
+            background-color: #c0c0c0;
+        }
+
+        #name{
+            width: 390px;
+            height: 50px;
+            border-radius: 25px;
+            position: relative;
+            left: 5px;
+            font-size: 1.5em;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        #buttons input[type="button"][value="C"] {
+            background-color: #faa307;
+            color: white;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+<div id="calculator">
+
+    <form name="main">
+
+        <input type="text" name="display" id="name">
+
+        <div id="buttons">
+            <input type="button" value="7" onclick="main.display.value += 7">
+            <input type="button" value="8" onclick="main.display.value += 8">
+            <input type="button" value="9" onclick="main.display.value += 9">
+            <input type="button" value="+" class="operator" onclick="operate('+')">
+            <input type="button" value="4" onclick="main.display.value += 4">
+            <input type="button" value="5" onclick="main.display.value += 5">
+            <input type="button" value="6" onclick="main.display.value += 6">
+            <input type="button" value="-" class="operator" onclick="operate('-')">
+            <input type="button" value="1" onclick="main.display.value += 1">
+            <input type="button" value="2" onclick="main.display.value += 2">
+            <input type="button" value="3" onclick="main.display.value += 3">
+            <input type="button" value="/"  class="operator" onclick="operate('/')">
+            <input type="button" value="0" onclick="main.display.value += 0">
+            <input type="button" value="." onclick="decimalPoint()">
+            <input type="button" value="=" class="operator" onclick="main.display.value=eval(main.display.value)">
+            <input type="button" value="*" class="operator" onclick="operate('*')">
+            <input type="button" value="C" onclick="main.display.value=''">
+
+        </div>
+    </form>
+</div>
+
+
+<script>
+
+    function operate(operator) {
+        var text = main.display.value;
+        var lastDigit = text.charAt(text.length - 1);
+
+
+        if (lastDigit == '+' || lastDigit == '-' || lastDigit == '/' || lastDigit == '*') {
+            text = text.substring(0, text.length - 1);
+        }
+
+        main.display.value = text + operator;
+    }
+
+    function decimalPoint() {
+        var text = main.display.value;
+        var lastChar = text.charAt(text.length - 1);
+
+
+        if (lastChar != '+' && lastChar != '-' && lastChar != '*' && lastChar != '/' && !text.includes('.')) {
+            main.display.value += '.';
+        }
+    }
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
