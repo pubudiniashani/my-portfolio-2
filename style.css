@@ -571,11 +571,30 @@ footer{
     background-color: #1B263B;
 }
 
-footer h6{
+footer h3{
     margin: 0;
 }
 
+#sentence{
+    width: fit-content;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    color: white;
+}
 
+#arrow{
+    width: fit-content;
+    position: relative;
+    left: 850px;
+
+}
+
+#arrow i{
+    font-size: 20px;
+    color: white;
+
+}
 
 
 
