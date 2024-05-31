@@ -152,7 +152,41 @@ navigation-bar>a:last-child {
     top: 65px;
 }
 
-.desc2{
+.edu-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-edu{
+    width: 380px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #edf6f9;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.img1, .img2 {
+    margin-bottom: 20px;
+}
+
+.p1{
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 20px;
+    color: #333;
+}
+
+/*.desc2{
     width: 65vw;
     height: 120px;
     border-radius: 30px;
@@ -171,9 +205,9 @@ navigation-bar>a:last-child {
     position: relative;
     top: 210px;
     left: 220px;
-}
+}*/
 
-.img1{
+/*.img1{
     position: relative;
     top: 20px;
     left: 50px;
@@ -203,7 +237,7 @@ navigation-bar>a:last-child {
     position: relative;
     top: 15px;
     left: 50px;
-}
+}*/
 
 .section4{
     background: #778da9;
@@ -494,12 +528,12 @@ navigation-bar>a:last-child {
 
 #topic1{
     font-size: 42px;
-    color: #1b263b;
+    color: #669bbc;
 }
 
 #topic2{
     font-size: 42px;
-    color: white;
+    color: #669bbc;
 }
 
 .section7 div h3{
