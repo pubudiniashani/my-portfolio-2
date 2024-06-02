@@ -305,7 +305,7 @@ navigation-bar>a:last-child {
     font-size: 24px;
 }
 
-p {
+.project-card p {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
