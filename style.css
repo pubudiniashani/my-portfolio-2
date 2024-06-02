@@ -245,8 +245,6 @@ navigation-bar>a:last-child {
 
 }
 
-
-
 #Projects h3{
     font-size: 42px;
     color: white;
@@ -266,17 +264,26 @@ navigation-bar>a:last-child {
 }
 
 .main-div{
-    width: 80vw;
-    position: relative;
-    right: 0;
-    left: 0;
-    top: 0;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 80px;
 }
 
-.d1{
+.project-card{
+    width: 420px;
+    height: 430px;
+    background: #e0e1dd;
+    border-radius: 15px;
+    margin: 0 10px;
+    border: black;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+}
+
+/*.d1{
     width: 250px;
     height: 350px;
     background-color: white;
@@ -290,8 +297,39 @@ navigation-bar>a:last-child {
     justify-content: center;
 
 
+}*/
+
+.h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
 }
 
+p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: black;
+    line-height: 18px;
+}
+
+.repo-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: lightblue;
+    color: black;
+    width: 120px;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-align: center;
+    /*margin-left: 60px;*/
+    font-size: 12px;
+    cursor: pointer;
+}
 
 .d1 h5{
     width: fit-content;
@@ -395,7 +433,6 @@ navigation-bar>a:last-child {
     position: absolute;
     bottom: 10px;
     padding: 10px;
-    /* page-break-after: 20px;*/
     text-align: center;
 }
 
