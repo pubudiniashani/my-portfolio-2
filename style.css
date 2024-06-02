@@ -305,14 +305,7 @@ navigation-bar>a:last-child {
     font-size: 24px;
 }
 
-.project-card p {
-    text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 18px;
-    color: black;
-    line-height: 18px;
-}
+
 
 .repo-btn{
     display: flex;
