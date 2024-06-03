@@ -161,9 +161,9 @@ navigation-bar>a:last-child {
 
 .card-edu{
     width: 380px;
-    height: 200px;
+    height: 250px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #edf6f9;
     text-align: center;
@@ -173,17 +173,22 @@ navigation-bar>a:last-child {
 
 .img1, .img2 {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .p1{
-    font-size: 20px;
+    font-size: 25px;
     color: #333;
     text-align: center;
+    position: relative;
+    top: 25px;
 }
 
 .p2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #333;
+    position: relative;
+    top: 10px;
 }
 
 /*.desc2{
@@ -283,17 +288,39 @@ navigation-bar>a:last-child {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a0a3a5+1,8393a8+44,778da9+100 */
     background: linear-gradient(to bottom,  rgba(160,163,165,1) 1%,rgba(131,147,168,1) 44%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-
     border-radius: 15px;
     margin: 0 10px;
-    border: black;
+    box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.75);
+
 }
 
-.projects {
+.image-container {
     width: 100%;
+    height: 280px; /* Adjust the height as needed */
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-container img.projects {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 8px 8px 0 0; /* Optional: rounded corners for the image */
+}
+
+/*
+.projects {
+    !*width: 90%;
     height: auto;
     margin-top: 10px;
+    margin-left: 20px;*!
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+*/
 
 
 
@@ -301,12 +328,14 @@ navigation-bar>a:last-child {
     margin: auto;
     text-align: center;
     font-size: 22px;
+    color: #1b263b;
 }
 
 .project-para{
     margin-left: 20px;
     margin-right: 20px;
     font-size: 18px;
+
 }
 
 
@@ -540,8 +569,11 @@ navigation-bar>a:last-child {
     aspect-ratio: 1/1;
 }
 
+
+
+
 .section7{
-    height: 120vh;
+    height: 90vh;
     background-color: #e0e1dd;
 }
 
@@ -566,12 +598,13 @@ navigation-bar>a:last-child {
     position: relative;
     top: 100px;
     left: 50px;
+
 }
 
 #name{
     width: 250px;
     height: 30px;
-    background-color: #778da9;
+    background-color: #669bbc;
     border-radius: 20px;
     box-shadow: #415A77;
     border: none;
@@ -581,7 +614,7 @@ navigation-bar>a:last-child {
 #email{
     width: 250px;
     height: 30px;
-    background-color: #778da9;
+    background-color: #99bdbc;
     border-radius: 20px;
     border: none;
     color: white;
@@ -590,7 +623,7 @@ navigation-bar>a:last-child {
 #description{
     width: 250px;
     height: 100px;
-    background-color: #778da9;
+    background-color: #669bbc;
     border-radius: 20px;
     border: none;
 }
@@ -609,20 +642,37 @@ navigation-bar>a:last-child {
 }
 
 #details{
-    width: 300px;
-    border: 1px solid black;
+    width: 400px;
+
     position: relative;
     top: 100px;
 }
 
-#details h6{
-    font-size: 18px;
+#details h5{
+    font-size: 30px;
 }
 
 footer{
     height: 10vh;
     background-color: #1B263B;
 }
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info i{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+
 
 footer h3{
     margin: 0;

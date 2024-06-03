@@ -117,7 +117,10 @@
 
         <div class="main-div">
             <div class="project-card">
-                <img src="assets/images/bookshop.png" class="projects">
+                <div class="image-container">
+                    <img src="assets/images/bookshop.png" class="projects">
+                </div>
+
                 <div class="h1">
                     Bookshop application
                 </div>
@@ -130,7 +133,9 @@
             </div>
 
             <div class="project-card">
-                <img src="assets/images/chat.png" class="projects" >
+                <div class="image-container">
+                <img src="assets/images/chat-app.png" class="projects" >
+                </div>
                 <div class="h1">
                     Chat application
                 </div>
@@ -143,7 +148,9 @@
             </div>
 
             <div class="project-card">
+                <div class="image-container">
                 <img src="assets/images/bookworm.png" class="projects">
+                </div>
                 <div class="h1">
                     Library application
                 </div>
@@ -603,11 +610,21 @@
        <div id="contact-details">
            <div id="contact-div">
                <form>
-                   <input type="text" placeholder="Name" id="name"><br><br>
+                   <div class="information">
+                       <label for="name">Name</label><br>
+                       <input type="text" placeholder="Name" id="name"><br><br>
+                   </div>
 
-                   <input type="email" placeholder="Email" id="email"><br><br>
 
-                   <textarea placeholder="Enter your message" cols="30" rows="10" id="description"></textarea><br><br>
+                   <div>
+                       <label for="email">Email</label><br>
+                       <input type="email" placeholder="Email" id="email"><br><br>
+                   </div>
+
+                   <div>
+                       <label for="description">Message</label><br>
+                       <textarea placeholder="Enter your message" cols="30" rows="10" id="description"></textarea><br><br>
+                   </div>
 
 
                    <button type="button" id="send">Send message</button>
@@ -618,14 +635,22 @@
            <div id="details">
                <h5>Get In Touch</h5>
 
-               <h6>Name</h6>
-               <h6>Pubudini Ashani</h6><br>
+               <div class="info">
+                   <i class="fa-solid fa-user"></i>
+                   <p>Pubudini Ashani</p>
+               </div>
 
-               <h6>Address</h6>
-               <h6>Horana</h6><br>
+               <div class="info">
+                   <i class="fa-solid fa-house"></i>
+                   <p>No.19 , 18th lane , Dkihenapura , Horana</p>
+               </div>
 
-               <h6>Email</h6>
-               <h6>pubudiniashani2000@gmail.com</h6><br>
+               <div class="info">
+                   <i class="fa-solid fa-envelope"></i>
+                   <p>pubudiniashani2000@gmail.com</p>
+               </div>
+
+
            </div>
 
 
