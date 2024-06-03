@@ -574,7 +574,8 @@ navigation-bar>a:last-child {
 
 .section7{
     height: 90vh;
-    background-color: #e0e1dd;
+    background-color: white;
+
 }
 
 #topic1{
@@ -602,38 +603,42 @@ navigation-bar>a:last-child {
 }
 
 #name{
-    width: 250px;
-    height: 30px;
+    width: 300px;
+    height: 35px;
     background-color: #669bbc;
     border-radius: 20px;
     box-shadow: #415A77;
     border: none;
     color: white;
+    margin-top: 10px;
 }
 
 #email{
-    width: 250px;
-    height: 30px;
-    background-color: #99bdbc;
+    width: 300px;
+    height: 35px;
+    background-color: #669bbc;
     border-radius: 20px;
     border: none;
     color: white;
+    margin-top: 10px;
 }
 
 #description{
-    width: 250px;
+    width: 300px;
     height: 100px;
     background-color: #669bbc;
     border-radius: 20px;
     border: none;
+    margin-top: 10px;
 }
 
 #send{
     width: 150px;
     height: 30px;
     border-radius: 20px;
-    background-color: #778da9;
+    background-color: #457b9d;
     border: none;
+
 }
 
 #contact-details{
@@ -652,15 +657,29 @@ navigation-bar>a:last-child {
     font-size: 30px;
 }
 
-footer{
-    height: 10vh;
-    background-color: #1B263B;
+#contact-form{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 50px;
+    /*background-color: #1B263B;*/
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.label{
+    margin-bottom: 10px;
+}
+
 
 .info{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    line-height: 2px;
 }
 
 .info i{
@@ -673,6 +692,13 @@ footer{
 }
 
 
+
+
+
+footer{
+    height: 10vh;
+    background-color: #1B263B;
+}
 
 footer h3{
     margin: 0;
