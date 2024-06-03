@@ -575,7 +575,6 @@ navigation-bar>a:last-child {
 .section7{
     height: 90vh;
     background-color: white;
-
 }
 
 #topic1{
@@ -583,10 +582,7 @@ navigation-bar>a:last-child {
     color: #669bbc;
 }
 
-#topic2{
-    font-size: 42px;
-    color: #669bbc;
-}
+
 
 .section7 div h3{
     text-align: center;
@@ -690,9 +686,6 @@ navigation-bar>a:last-child {
 .info p{
     font-size: 20px;
 }
-
-
-
 
 
 footer{
