@@ -917,6 +917,55 @@ footer h3{
         height: 610vh;
     }
 
+    .section4 {
+
+        height: 120vh;
+
+    }
+
+    #contact-form{
+        width: 400px;
+        height: 300px;
+        left: 30px;
+    }
+
+    #name{
+        width: 300px;
+        height: 32px;
+        background-color: #669bbc;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #email{
+        width: 300px;
+        height: 32px;
+        background-color: #669bbc;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #description{
+        width: 300px;
+        height: 85px;
+        background-color: #669bbc;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #send{
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #457b9d;
+        border: none;
+
+    }
 
 
 }
