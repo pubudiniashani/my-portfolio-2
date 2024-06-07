@@ -859,38 +859,47 @@ footer h3{
         text-align: center;
         margin: 0;
         position: relative;
-        top: 40px;
+        top: 60px;
     }
 
-    .desc2{
-        width: 75vw;
-        height: 120px;
-        position: relative;
-        left: 150px;
-        top: 100px;
+
+
+    .edu-cards{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .desc3{
-        width: 75vw;
-        height: 120px;
+    .card-edu{
+        width: 320px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 30px;
+        /*background-color: #edf6f9;*/
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7cfdf+0,778da9+100 */
+        background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        text-align: center;
         position: relative;
-        left: 150px;
-        top: 190px;
+        top: 150px;
+
     }
+
 
     .img1{
         position: relative;
         top: 30px;
-        left: 50px;
+        left: 20px;
         height: 60px;
     }
 
     .p1{
         position: relative;
         width: fit-content;
-        font-size: 28px;
-        top: -20px;
-        left: 240px;
+        font-size: 26px;
+        top: 40px;
+        left: 0;
         margin: 0;
 
     }
@@ -898,9 +907,9 @@ footer h3{
     .p2{
         position: relative;
         width: fit-content;
-        font-size: 28px;
-        top: -60px;
-        left: 210px;
+        font-size: 26px;
+        top: 30px;
+        left: 0;
         margin: 0;
 
     }
@@ -908,7 +917,7 @@ footer h3{
     .img2{
         position: relative;
         top: 15px;
-        left: 50px;
+        left: 20px;
     }
 
     .section5{
