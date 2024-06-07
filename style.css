@@ -866,16 +866,7 @@ footer h3{
     .card-edu{
         width: 320px;
         height: 250px;
-        padding: 20px;
-        border-radius: 30px;
-        /*background-color: #edf6f9;*/
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7cfdf+0,778da9+100 */
-        background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-        text-align: center;
-        position: relative;
         top: 150px;
-
     }
 
 
@@ -913,14 +904,11 @@ footer h3{
     }
 
     .section5{
-        background-color: #415A77;
         height: 610vh;
     }
 
     .section4 {
-
         height: 120vh;
-
     }
 
     #contact-form{
@@ -930,42 +918,27 @@ footer h3{
     }
 
     #name{
-        width: 300px;
         height: 32px;
-        background-color: #669bbc;
-        border-radius: 20px;
-        border: none;
-        color: white;
-        margin-top: 10px;
     }
 
     #email{
-        width: 300px;
         height: 32px;
-        background-color: #669bbc;
-        border-radius: 20px;
-        border: none;
-        color: white;
-        margin-top: 10px;
     }
 
     #description{
-        width: 300px;
         height: 85px;
-        background-color: #669bbc;
-        border-radius: 20px;
-        border: none;
-        margin-top: 10px;
     }
 
-    #send{
-        width: 150px;
-        height: 30px;
-        border-radius: 20px;
-        background-color: #457b9d;
-        border: none;
-
+    #sentence{
+        width: fit-content;
+        position: relative;
+        top: 20px;
+        left: 250px;
+        color: white;
     }
+
+
+
 
 
 }
