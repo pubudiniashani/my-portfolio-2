@@ -163,12 +163,15 @@ navigation-bar>a:last-child {
     width: 380px;
     height: 250px;
     padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #edf6f9;
+    border-radius: 30px;
+    /*background-color: #edf6f9;*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7cfdf+0,778da9+100 */
+    background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     text-align: center;
     position: relative;
     top: 200px;
+
 }
 
 .img1, .img2 {
@@ -298,7 +301,7 @@ navigation-bar>a:last-child {
     width: 80%;
     height: 280px; /* Adjust the height as needed */
     overflow: hidden;
-    background-image: url("assets/images/bookshop.png");
+    background-image: url("assets/images/Bookshop.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -308,10 +311,8 @@ navigation-bar>a:last-child {
 }
 
 .image-container img{
- /*width: 80%;*/
-    display: block;
-    width: 100%;
-    height: auto;
+ width: 80%;
+
 }
 
 
