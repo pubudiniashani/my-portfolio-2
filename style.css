@@ -806,10 +806,10 @@ footer h3{
     }
 
     #img1{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         top: -120px;
-        right: 25px;
+        right: 20px;
     }
 
     .icons{
@@ -863,14 +863,6 @@ footer h3{
     }
 
 
-
-    .edu-cards{
-        display: flex;
-        gap: 40px;
-        justify-content: center;
-        align-items: center;
-    }
-
     .card-edu{
         width: 320px;
         height: 250px;
@@ -897,8 +889,8 @@ footer h3{
     .p1{
         position: relative;
         width: fit-content;
-        font-size: 26px;
-        top: 40px;
+        font-size: 25px;
+        top: 45px;
         left: 0;
         margin: 0;
 
@@ -907,7 +899,7 @@ footer h3{
     .p2{
         position: relative;
         width: fit-content;
-        font-size: 26px;
+        font-size: 25px;
         top: 30px;
         left: 0;
         margin: 0;
@@ -917,7 +909,7 @@ footer h3{
     .img2{
         position: relative;
         top: 15px;
-        left: 20px;
+        left: 10px;
     }
 
     .section5{
