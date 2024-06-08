@@ -942,7 +942,13 @@ footer h3{
 
 @media all and(max-width: 960px){
 
+    .navigation-bar{
+        position: absolute;
+        right: 50px;
+        top: 15px;
+        font-size: 22px;
 
+    }
 }
 
 
@@ -1266,6 +1272,7 @@ footer h3{
 @media all  and (max-width: 375px){
 
 }
+
 @media all  and (max-width: 320px){
     .section5{
         background-color: #415A77;
