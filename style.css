@@ -86,12 +86,12 @@ navigation-bar>a:last-child {
     right: 25px;
 }
 
-.icons{
+.icons {
     position: relative;
     margin-left: 55px;
     bottom: -200px;
     margin-bottom: 0;
-
+    font-size: 40px;
 }
 
 .section2{
@@ -164,8 +164,6 @@ navigation-bar>a:last-child {
     height: 250px;
     padding: 20px;
     border-radius: 30px;
-    /*background-color: #edf6f9;*/
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7cfdf+0,778da9+100 */
     background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
     text-align: center;
@@ -735,6 +733,8 @@ footer h3{
 
 @media all  and(min-width: 1025px) and (max-width: 1440px){
 
+
+
     .header1{
         background-color: #1B263B;
         width: 100vw;
@@ -1028,22 +1028,9 @@ footer h3{
         margin-left: 55px;
         bottom: -200px;
         margin-bottom: 0;
-
-    }
-    #icon1{
-        width: 40px;
-        aspect-ratio: 1/1;
+        font-size: 30px;
     }
 
-    #icon2{
-        width: 40px;
-        aspect-ratio: 1/1;
-    }
-
-    #icon3{
-        width: 40px;
-        aspect-ratio: 1/1;
-    }
 
     .para1{
        /* text-align: center;*/
@@ -1063,7 +1050,7 @@ footer h3{
         font-size: 20px;
         position: relative;
         top:50px;
-        margin-left: 500px;
+        margin-left: 400px;
     }
     .desc2{
         width: 80vw;
