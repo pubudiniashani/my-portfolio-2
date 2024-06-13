@@ -77,8 +77,8 @@ navigation-bar>a:last-child {
 }
 
 #img1{
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    aspect-ratio: 1/1;
     border-radius: 100%;
     position: absolute;
     margin-top: 10px;
@@ -476,7 +476,7 @@ navigation-bar>a:last-child {
     margin: 0;
 }
 
-#images{
+#skill-images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -489,7 +489,7 @@ navigation-bar>a:last-child {
 
 }
 
-#images div{
+#skill-images div{
     width: 150px;
     height: 150px;
     background-color: white;
@@ -757,8 +757,8 @@ footer h3{
     }
 
     #img1{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         top: -120px;
         right: 20px;
     }
@@ -897,7 +897,7 @@ footer h3{
 
 }
 
-@media all and(max-width: 960px){
+@media all and(max-width: 920px){
 
     .navigation-bar{
         position: absolute;
@@ -915,25 +915,26 @@ footer h3{
 
 
     .header3{
-        font-size: 60px;
+        font-size: 40px;
         margin-left: 50px;
         margin-top: 120px;
     }
 
     .text1{
         margin: 0;
+        width: fit-content;
     }
 
     .span1{
         color: black;
         margin-left: 50px;
-        font-size:40px;
+        font-size:20px;
     }
 
     .span2{
         color: white;
-        font-size: 40px;
-        margin-left: 10px;
+        font-size: 30px;
+        margin-left: 5px;
     }
 
     .img{
@@ -951,7 +952,7 @@ footer h3{
         position: absolute;
         margin-top: 10px;
         top: -165px;
-        right: 25px;
+        right: 30px;
     }
 
     .icons {
@@ -972,6 +973,19 @@ footer h3{
         flex-wrap: wrap;
         top: 80px;
         left: 10px;
+
+    }
+
+    #skill-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 30px;
+        margin-left: 90px;
+        margin-top: 120px;
 
     }
 }
@@ -1005,9 +1019,9 @@ footer h3{
     }
 
     .header3{
-        font-size: 50px;
-        margin-left: 40px;
-        margin-top: 100px;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 80px;
     }
 
     .text1{
@@ -1017,17 +1031,19 @@ footer h3{
     .span1{
         position: relative;
         color: black;
-        margin-left: 45px;
+        /*margin-left: 65px;*/
+        left: 55px;
         font-size:40px;
-        top: 25px;
+        top: 20px;
     }
 
     .span2{
         position: relative;
         color: white;
         font-size: 40px;
-        margin-left: 20px;
-        top: 25px;
+        /*margin-left: 70px;*/
+        left: 60px;
+        top: 20px;
     }
 
     .img{
@@ -1044,14 +1060,14 @@ footer h3{
         border-radius: 100%;
         position: absolute;
         margin-top: 10px;
-        top: -80px;
-        right: 0;
+        top: 35px;
+        right: 250px;
     }
 
     .icons{
         position: relative;
-        margin-left: 55px;
-        bottom: -200px;
+        margin-left: 100px;
+        bottom: -240px;
         margin-bottom: 0;
         font-size: 30px;
     }
@@ -1193,6 +1209,59 @@ footer h3{
         margin-right: 20px;
         font-size: 15px;
 
+    }
+
+    #skill-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 30px;
+        margin-left: 80px;
+        margin-top: 120px;
+
+    }
+
+    #skill-images div{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div1 img{
+        width: 80px;
+        aspect-ratio: 1/1;
+    }
+
+    #div2 img{
+        width: 80px;
+        aspect-ratio: 1/1;
+    }
+
+    #div3 img{
+        width: 80px;
+        aspect-ratio: 1/1;
+    }
+
+    #div4 img{
+        width: 80px;
+        aspect-ratio: 1/1;
+    }
+
+    #div5 img{
+        width: 80px;
+        aspect-ratio: 1/1;
+    }
+
+    #div6 img{
+        width: 80px;
+        aspect-ratio: 1/1;
     }
 
     #contact-form{
