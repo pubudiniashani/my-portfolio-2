@@ -1406,12 +1406,12 @@ footer h3{
     }
 
     #img1{
-        width: 100px;
-        aspect-ratio: 1/1;
+        width: 80px;
+        height: 80px;
         border-radius: 100%;
         position: absolute;
         margin-top: 10px;
-        top: 10px;
+        top: 50px;
         right: 25px;
     }
 
@@ -1458,7 +1458,18 @@ footer h3{
     .section5{
         height: 1180vh;
     }
+    #skill-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 30px;
+        margin-left: 45px;
+        margin-top: 120px;
 
+    }
     #skill-images div{
         width: 80px;
         height: 80px;
@@ -1467,7 +1478,7 @@ footer h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        left: 0;
+        left: -20px;
     }
 
     #div1 img{
@@ -1501,9 +1512,13 @@ footer h3{
     }
 
     .section7{
-        height: 200vh;
+        height: 150vh;
     }
 
+
+    #contact-form{
+        left: 0;
+    }
 
     #name{
         width: 200px;
@@ -1543,9 +1558,10 @@ footer h3{
 
     #details{
         width: 350px;
-
         position: relative;
         top: 100px;
+        left: 10px;
+        font-size: 14px;
     }
 
     #details h5{
@@ -1562,6 +1578,28 @@ footer h3{
         display: grid;
         align-items: center;
         justify-content: center;
+
+    }
+
+    #sentence{
+        width: fit-content;
+        position: relative;
+        top: 20px;
+        left: 25px;
+        color: white;
+        font-size: 12px;
+    }
+
+    #arrow{
+        width: fit-content;
+        position: relative;
+        left: 350px;
+
+    }
+
+    #arrow i{
+        font-size: 20px;
+        color: white;
 
     }
 
