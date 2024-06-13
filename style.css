@@ -454,14 +454,6 @@ navigation-bar>a:last-child {
 
 
 
-
-
-
-
-
-
-
-
 .section6{
     height: 100vh;
     background-color: #778da9;
@@ -864,21 +856,9 @@ footer h3{
 
     .section4{
         height: 175vh;
-
     }
 
-    .project-container {
-        position: relative;
-       /* width: 980px;*/
-        /*padding: 20px;*/
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        top: 80px;
-        left: 20px;
 
-    }
 
 
     .section5{
