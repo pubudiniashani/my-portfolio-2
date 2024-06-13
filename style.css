@@ -1343,6 +1343,11 @@ footer h3{
 
 @media all  and (max-width: 720px){
 
+
+    .section3{
+        height: 140vh;
+    }
+
     .edu-cards{
         display: grid;
 
@@ -1350,14 +1355,7 @@ footer h3{
 
     .card-edu{
         width: 280px;
-        height: 250px;
-        padding: 0;
-        border-radius: 30px;
-        background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(119,141,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        text-align: center;
-        position: relative;
-        top: 165px;
-
+        top: 135px;
     }
 
 
