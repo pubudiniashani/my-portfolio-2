@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Pubudini Ashani</title>
 
+
+    <!--<link rel="stylesheet" href="styles.css">-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +14,7 @@
 </head>
 <body>
 
-        <header class="header1">
+       <!-- <header class="header1">
         <h3 class="header2">Portfolio</h3><br>
 
             <div class="nav">
@@ -26,8 +28,24 @@
                 <a href="#Contact">Contact</a>
             </nav>
              </div>
+        </header>-->
+       <header class="header1">
+           <h3 class="header2">Portfolio</h3>
+           <br />
 
-        </header>
+           <div class="nav">
+               <nav class="navigation-bar">
+                   <a href="#Home">Home</a>
+                   <a href="#About me">About me</a>
+                   <a href="#Education">Education</a>
+                   <a href="#Projects">Projects</a>
+                   <a href="#Assignments">Assignments</a>
+                   <a href="#Skills">Skills</a>
+                   <a href="#Contact">Contact</a>
+               </nav>
+           </div>
+           <div class="hamburger-menu" id="hamburgerMenu">&#9776;</div>
+       </header>
 
 
    <section class="section1" id="Home">
@@ -616,24 +634,26 @@
 
        <div id="contact-details">
            <div id="contact-div">
-               <form id="contact-form">
+               <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                   <input type="hidden" name="access_key" value="f5d6c152-37d9-4cb1-8316-3c33a53fc878">
 
                    <div class="information">
                        <label for="name" >Name</label><br>
-                       <input type="text"  id="name"><br><br>
+                       <input type="text"  id="name" name="name" required><br><br>
                    </div>
 
                    <div class="information">
                        <label for="email" >Email</label><br>
-                       <input type="email"  id="email"><br><br>
+                       <input type="email"  id="email" name="email" required><br><br>
                    </div>
 
                    <div class="information">
                        <label for="description" >Message</label><br>
-                       <textarea  cols="30" rows="10" id="description"></textarea><br><br>
+                       <textarea  cols="30" rows="10" id="description" name="message" required></textarea><br><br>
                    </div>
 
-                   <button type="button" id="send">Send message</button>
+                   <button type="submit" id="send">Send message</button>
 
                </form>
 
@@ -663,12 +683,19 @@
 
        </div>
 
-
-
     </section>
 
+       <section class="foot">
+           <p>All rights reserved. Developed by Pubudini Ashani</p>
+           <p>
+               <a href="#Home">
+                   <i class="fa-solid fa-arrow-up"></i>
+               </a>
+           </p>
+       </section>
 
-    <footer>
+
+    <!--<footer>
         <div id="sentence">
             <h3>All rights reserved. Developed by Pubudini Ashani</h3>
         </div>
@@ -681,7 +708,25 @@
 
         </div>
 
-    </footer>
+    </footer>-->
 
+
+
+       <script>
+           document
+               .getElementById("hamburgerMenu")
+               .addEventListener("click", function () {
+                   var nav = document.querySelector(".navigation-bar");
+                   nav.classList.toggle("active");
+               });
+
+           var navLinks = document.querySelectorAll(".navigation-bar a");
+           navLinks.forEach(function (link) {
+               link.addEventListener("click", function () {
+                   var nav = document.querySelector(".navigation-bar");
+                   nav.classList.remove("active");
+               });
+           });
+       </script>
 </body>
 </html>
